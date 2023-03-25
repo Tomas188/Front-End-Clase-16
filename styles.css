@@ -1,0 +1,511 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.recuadro {
+    
+    background-color: #00669F;
+    width: 70%;
+    margin-left: 10%;
+    border-radius: 10px;
+    height: 150vh;
+}
+.título {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 2%;
+    color: white;
+}
+.texto-1 {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 18px;
+    color: white;
+}
+.juntar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3%;
+}
+.cuadroa {
+    font-size: 20px;
+    color: white;
+}
+.cuadro-1 {
+height: 5vh;
+position: absolute;
+margin-top: 5%;
+margin-right: 24.5%;
+width: 15vw;
+border-radius: 10px;
+border: white;
+text-align: center;
+outline: none;
+}
+.cuadrob {
+    font-size: 20px;
+    color: white;
+    margin-right: 20%;
+}
+.cuadro-2 {
+position: absolute;
+height: 5vh;
+width: 15vw;
+border: white;
+border-radius: 10px;
+margin-top: 5%;
+margin-left: 17%;
+outline: none;
+}
+.juntar-dos {
+    display: flex;
+    padding-top: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cuadroc {
+    font-size: 20px;
+    color: white;
+    text-indent: -30%;
+}
+.cuadro-3 {
+    height: 5vh;
+position: absolute;
+margin-top: 5%;
+margin-right: 24.5%;
+width: 15vw;
+border-radius: 10px;
+border: white;
+outline: none;
+}
+.cuadrod {
+    font-size: 20px;
+    color: white;
+    margin-right: 15%;
+}
+.cuadro-4 {
+    position: absolute;
+    padding-top: 5%;
+    margin-left:19%;
+    color: white;
+}
+.juntar-tres {
+padding-top: 11%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+}
+.texting {
+position: absolute;
+margin-right: 25%;
+width: 15vw;
+border-radius: 10px;
+height: 53vh;
+margin-top: 14%;
+color: #000000;
+outline: none;
+}
+legend {
+    margin-left: 1%;
+    font-size: 20px;
+    color: white;
+    margin-top:2%
+}
+.juntar-4 {
+    padding-top:20%
+}
+.abajo {
+   margin-top: 2%;
+   font-size: 18px;
+   color: white;
+}
+.awajo {
+    position: relative;
+}
+.awajo-dos {
+    position: relative;
+}
+.abajo-dos {
+    margin-left: 8.3%;
+    font-size: 18px;
+    color: white;
+    margin-top: 1%;
+}
+.abajo-tres {
+    margin-left: 9%;
+    font-size: 18px;
+    color: white;
+    margin-top: 1%;
+}
+.awajo-tres {
+    position: relative;
+}
+.awajo-cuatro {
+    position: relative;
+}
+.abajo-cuatro {
+    margin-left: 6.7%;
+    font-size: 18px;
+    color: white;
+    margin-top: 1%;
+}
+.juntar-4 {
+    display: flex;
+    flex-direction: column;
+}
+.hola {
+    position: relative;
+  width:20vw;
+  margin-left: 45%;
+  margin-top: -19%;
+}
+.hola-2 {
+    margin-left: 47%;
+    padding-top: 1%;
+    font-size: 20px;
+    color: white;
+}
+.holx-abajo {
+    margin-left:47%;
+    padding-top:2%;
+    color:white;
+    font-size:18px;
+}
+.holx-abajo-dos {
+    margin-left:47%;
+}
+.hola-abajo-dos {
+color: white;
+font-size: 18px;
+padding-top: 1%;
+}
+.final-d {
+    padding-top:15%; 
+   margin-left:30%;
+  
+}
+.final {
+    width:30vw;
+    height:15vh;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: #1CD1B0;
+    background-color: #1CD1B0;
+}
+@media (max-width:480px){
+
+.recuadro{
+margin-left:15%;
+height:280vh;
+}
+.título {
+    font-size:30px
+}
+.texto-1 {
+    font-size: 16px;
+    padding-top:4%
+}
+.juntar {
+   flex-direction: column;
+   padding-top: 7%;
+}
+.cuadroa {
+    font-size: 25px;
+}
+.cuadro-1{
+    width: 28vw;
+    margin-top: -7%;
+text-align: center;
+margin-left: 28%;
+}
+.cuadro-2{
+    margin-top: 55%;
+    width: 28vw;
+    margin-right:15%;
+    text-align: center;
+}
+.cuadrob{
+    padding-top: 33%;
+    font-size: 25px;
+    margin-left: 16%;
+}
+.juntar-dos {
+    padding-top:95%
+}
+.juntar-tres {
+    padding-top: 100%;
+}
+.cuadroc {
+   margin-top:-100%;
+   font-size: 25px;
+   margin-left:10%
+}
+.cuadro-3{
+    margin-top:-45%;
+    margin-left:27%;
+    width:28vw;
+    text-align: center;
+}
+.cuadrod {
+    position: absolute;
+    margin-left: 15%;
+}
+.cuadro-4{
+    margin-top: 20%;
+    font-size: 12px;
+    color: white;
+    margin-right: 10%;
+}
+legend {
+    margin-top:20%;
+    font-size:28px
+}
+.texting {
+    margin-top: -80%;
+    height: 30vh;
+    width: 40vw;
+    margin-left:28%
+}
+.abajo {
+    padding-top:6%;
+    margin-right:10%;
+    position:static;
+}
+.abajo-dos {
+    padding-top:3%;
+    margin-left:16%;
+    position:static;
+}
+.abajo-tres {
+    padding-top:3%;
+    margin-left:18%;
+    position:static;
+}
+.abajo-cuatro {
+    padding-top:3%;
+    margin-left:10%;
+    position:static;
+}
+.hola-2 {
+    padding-top: 20%;
+    margin-left: 32%;
+}
+.hola {
+    width: 40vw;
+ margin-top: 1%;
+ margin-left: 25%;
+}
+.holx-abajo{
+    padding-top: 10%;
+    margin-left: 35%;
+}
+.hola-abajo-dos{
+    padding-top:7%;
+    text-indent: -12%;
+}
+.final{
+    margin-left: 5%;
+}
+}
+@media (min-width:481px) and (max-width:767px) {
+    .recuadro{ 
+        height: 150vh;
+    }
+.título {
+    font-size:30px;
+}
+.texto-1 {
+    padding-top:2%;
+    font-size:14px;
+}
+.juntar {
+    padding-top:10%
+}
+.cuadroa {
+    font-size:25px;
+    text-indent: 50%;
+}
+.cuadro-1 {
+    margin-top: 15%;
+    width: 25vw;
+    margin-left: -8%;
+    text-align: center;
+}
+.cuadrob {
+    font-size: 25px;
+    margin-left: 30%;
+}
+.cuadro-2 {
+    margin-top: 15%;
+    width: 25vw;
+    text-align: center;
+    margin-left: 30%;
+}
+.juntar-dos {
+    padding-top: 30%;
+}
+.cuadroc {
+    font-size: 25px;
+    text-indent: 70%;
+}
+.cuadro-3 {
+    margin-top: 16%;
+    width: 25vw;
+    margin-left: -9%;
+}
+.cuadrod {
+    font-size: 20px;
+   margin-left: 36%;
+   
+}
+.cuadro-4{
+    margin-top: 11%;
+    margin-left: 60%;
+    color: transparent;
+}
+.juntar-tres {
+    padding-top: 20%;
+}
+legend {
+    margin-top: 10%;
+    text-indent: 80%;
+    font-size: 22px;
+}
+
+.texting {
+    position: absolute;
+    height: 60vh;
+    margin-top: 48%;
+    margin-left: -8%;
+    width: 25vw;
+    text-align: center;
+}
+.abajo {
+    margin-top: 5%;
+    font-size: 15px;
+    margin-left: 30%;
+}
+.abajo-dos{
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 51.5%;
+}
+.abajo-tres {
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 53%;
+}
+.abajo-cuatro {
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 46.5%;
+}
+.juntar-4 {
+    padding-top: 50%;
+}
+.hola{
+    margin-top: -30%;
+    width: 30vw;
+    position: absolute;
+    margin-left: 37%;
+}
+.hola-2 {
+    margin-top: -35%;
+    text-indent: 7%;
+    font-size: 20px;
+}
+.hola-abajo-dos {
+    margin-top: 3%;
+    font-size: 15px;
+    text-indent: 8%;
+}
+.holx-abajo{
+    margin-top: 5%;
+    font-size: 15px;
+    text-indent: 15%;
+}
+.final {
+    margin-top: 15%;
+}
+}
+@media (min-width:565px) {
+.recuadro{
+ height: 170vh;
+    }
+}
+@media (min-width:650px) {
+    .recuadro {
+        height: 190vh;
+    }
+}
+.cuadro-1:hover {
+    background-color: #CECECE;
+}
+.cuadro-2:hover {
+    background-color: #CECECE;
+}
+.cuadro-3:hover {
+    background-color: #CECECE;
+}
+.texting:hover {
+    background-color: #CECECE;
+}
+.cuadroa:focus {
+color:black;
+}
+.cuadro-2:focus {
+color: black;
+}
+.cuadro-3:focus {
+color:black
+}
+.texting:focus {
+    color: black;
+}
+.cuadro-1:valid:hover {
+outline:none;
+border:2.1px solid green
+}
+.cuadro-2:valid:hover {
+outline:none;
+border:2.1px solid green
+}
+.cuadro-3:valid:hover {
+outline:none;
+border:2.1px solid green
+}
+.che:disabled {
+    color:red
+}
+.cuadro-1:invalid:hover {
+outline:none;
+border: 2.1px solid red;
+}
+.cuadro-3:invalid:hover {
+    border:2.1px solid red
+}
+.che-dos {
+    background-color: #CECECE;
+}
+.awajo:checked {
+accent-color: blue;
+}
+.awajo-dos:checked {
+    accent-color: blue;
+}
+.awajo-tres:checked {
+    accent-color: blue;
+}
+.awajo-cuatro:checked {
+    accent-color: blue;
+}
+.hola-abajo:checked {
+accent-color: blue;
+}
+.holx-abajo-dos:checked {
+    accent-color: blue;
+}

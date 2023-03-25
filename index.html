@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <section class="recuadro">
+        <h3 class="título">Añadí tu super!</h3>
+        <p class="texto-1">Agregá tu personaje favorito completando las opciones.</p>
+        <form action="xd.html" method="post">
+            <div class="juntar">
+                <label class="cuadroa" for="nombre">*Nombre</label>
+                <input class="cuadro-1" type="text" name="usuario" id="usuario" placeholder="Tomás" minlength="5" maxlength="15" required>
+                <label class="cuadrob" for="especie">*Especie</label>
+            <select class="cuadro-2" name="especie" required>
+                <optgroup label="OSCUROS">
+                <option class="che" value="1" disabled>Batman</option>
+                <option value="2">Robin</option>
+                </optgroup>
+                <optgroup label="RAROS">
+                    <option value="3">Thor</option>
+                    <option value="4">Ironman</option>
+                </optgroup>
+                </select>
+        </div>
+        <div class="juntar-dos">
+            <label class="cuadroc" for="fecha">Fecha</label>
+                <input class="cuadro-3" type="date" name="nombre" value="2004/11/10" min="1920-01-01" max="2023/3/20" required>
+                <label class="cuadrod" for="fotos">Agregar foto</label>
+            <input class="cuadro-4" type="file" name="fotos" accept=".jpg, .pdf" multiple> 
+        </div>
+            <div class="juntar-tres">
+                <textarea class="texting" maxlength="150" name="Descripción" id="descripción">Descripción</textarea>
+               <legend>Poderes</legend>
+               <label class="abajo" for="vol"> 
+              <input class="awajo" type="checkbox" name="poderes" id="vol" value="vol">
+              Volar </label>
+            <label class="abajo-dos" for="int"> 
+               <input class="awajo-dos" type="checkbox" name="poderes" id="int" value="int" checked>
+               Superinteligencia
+            </label>
+            <label class="abajo-tres" for="rayo">
+                <input class="awajo-tres" type="checkbox" name="poderes" id="int" value="int">
+                Vista de rayo láser
+            </label>
+            <label class="abajo-cuatro" for="bill">
+                <input class="awajo-cuatro" type="checkbox" name="poderes" id="bill" value="bill">
+                Billetera gorda
+            </label>
+            </div>
+            <div class="juntar-4">
+            <hr class="hola">
+            </hr>
+            <h4 class="hola-2">Tipo de personaje</h4>
+            <label class="holx-abajo" for="heroes">
+            <input class="hola-abajo" type="radio" name="docs" value="heroes" id="heroes" checked> Héroe / Heroína </label>
+            <label class="hola-abajo-dos" for="villano">
+        <input class="holx-abajo-dos" type="radio" name="docs" value="villano" id="villano"> Villano / Villana
+           </label>
+           <div class="final-d">
+        <input class="final" type="submit" value="Añadir">
+           </div>
+    </div>
+        </form>
+    </section>
+        </main>
+    </main>
+</body>
+</html>
